@@ -1,11 +1,14 @@
 // @flow strict
+import dynamic from 'next/dynamic';
 import Image from "next/image";
-
 import { educations } from "@/utils/data/educations";
 import { BsPersonWorkspace } from "react-icons/bs";
-import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import lottieFile from '/public/lottie/study.json';
+
+const AnimationLottie = dynamic(() => import('../../helper/animation-lottie'), {
+  ssr: false,
+});
 
 function Education() {
   return (
@@ -27,7 +30,7 @@ function Education() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            EDUCATION
+            Education
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>

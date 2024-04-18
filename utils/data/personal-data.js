@@ -7,10 +7,10 @@ export const personalData = {
   phone: '+918851914696',
   address: 'Noida Sec-62, Uttar Pradesh, India - 201309 ',
   github: 'https://github.com/Austin2501',
-  facebook: 'https://www.facebook.com/',
+  facebook: 'https://www.facebook.com/profile.php?id=100008405593497',
   linkedIn: 'https://www.linkedin.com/in/vineet-rawat/',
-  twitter: 'https://twitter.com/',
-  stackOverflow: 'https://stackoverflow.com/',
+  twitter: 'https://twitter.com/VineetR32204809',
+  stackOverflow: 'https://stackoverflow.com/users/17470116/vineet-rawat',
   leetcode: "https://leetcode.com/Austin_2501/",
   resume: "https://drive.google.com/file/d/13fh9c9cSObkLW0YTsA_J0ghtmfAk8wwo/view?usp=sharing"
 }
